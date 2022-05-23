@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "local>caas-ops/gitlabci-library"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "values.yaml"
+      ],
+      "matchStringsStrategy": "recursive",
+      "matchStrings": [
+        "repo:\\s+(http[s]?:\\/\\/)?([^\\/\\s]+\\/)(?<depName>.*).git\\n\\s+revision:\\s+(?<currentValue>.*)"
+      ],
+      "datasourceTemplate": "gitlab-tags"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Include KaaS GitLab CI library
+include:
+  - project: caas-ops/gitlabci-library
+    ref: main
+    file: main.yml
+
+# Enable debug
+variables:
+  PROJECT_HELMPATH: "./"

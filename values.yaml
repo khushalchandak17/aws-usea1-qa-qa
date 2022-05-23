@@ -1,0 +1,43 @@
+# -- String to partially override helper.fullname template (will maintain the release name)
+nameOverride:
+
+# -- String to fully override helper.fullname template
+fullnameOverride:
+
+# -- Add annotations to all the deployed resources
+commonAnnotations: {}
+
+# -- Add labels to all the deployed resources
+commonLabels: {}
+
+# -- Fleet [ClusterGroups](https://fleet.rancher.io/cluster-group)
+# @default -- see [values](values.yaml)
+clustergroups:
+  - name: test
+    create: true
+    description: Test
+    annotations:
+      foo: bar
+    labels:
+      foo: bar
+    selector:
+      matchLabels:
+        foo: bar
+
+# -- Fleet [GitRepos](https://fleet.rancher.io/gitrepo-add)
+# @default -- see [values](values.yaml)
+gitrepos:
+  - name: test
+    create: true
+    description: Test
+    annotations:
+      foo: bar
+    labels:
+      foo: bar
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/test.git
+      revision: 1.0.0
+      clientSecretName: gitlab
+      targets:
+        - name: all
+          clusterSelector: {}

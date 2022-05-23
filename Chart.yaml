@@ -1,0 +1,9 @@
+apiVersion: v2
+name: PROVIDER-REGION-ENVIRONMENT-TEAM
+version: 1.0.0
+appVersion: 1.0.0
+description: Fleet Workspace
+type: application
+keywords: ["Rancher", "Fleet", "GitOps", "Siemens", "KaaS", "XCR"]
+home: "https://fleet.rancher.io"
+icon: "http://fleet.rancher.io/assets/logo.svg"
