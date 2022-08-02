@@ -1,7 +1,7 @@
 apiVersion: v2
 name: PROVIDER-REGION-ENVIRONMENT-TEAM
-version: 1.0.0
-appVersion: 1.0.0
+version: 2.0.1
+appVersion: 2.0.1
 description: Fleet Workspace
 type: application
 keywords: ["Rancher", "Fleet", "GitOps", "Siemens", "KaaS", "XCR"]
