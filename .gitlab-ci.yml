@@ -7,3 +7,4 @@ include:
 # Enable debug
 variables:
   PROJECT_HELMPATH: "./"
+  PROJECT_HELMLINTVALUES: "./values.yaml"
