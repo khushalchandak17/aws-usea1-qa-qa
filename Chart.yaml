@@ -1,5 +1,5 @@
 apiVersion: v2
-name: PROVIDER-REGION-ENVIRONMENT-TEAM
+name: aws-usea1-qa-shared
 version: 2.0.1
 appVersion: 2.0.1
 description: Fleet Workspace

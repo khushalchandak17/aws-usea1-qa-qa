@@ -2,7 +2,7 @@ style: gitlab
 template: CHANGELOG.tpl.md
 info:
   title: CHANGELOG
-  repository_url: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/PROVIDER-REGION-ENVIRONMENT-TEAM
+  repository_url: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-shared
 options:
   commits:
   # filters:
