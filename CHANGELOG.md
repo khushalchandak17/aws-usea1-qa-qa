@@ -2,8 +2,17 @@
 ## [Unreleased]
 
 
+<a name="2.0.4"></a>
+## [2.0.4] - 2022-09-12
+### Fix
+- rename from shared to q
+
+
 <a name="2.0.3"></a>
 ## [2.0.3] - 2022-09-12
+### Ci
+- promote to v2.0.3
+
 ### Fix
 - rename from shared to qa
 
@@ -33,7 +42,8 @@
 <a name="1.0.0"></a>
 ## 1.0.0 - 2022-05-23
 
-[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.3...HEAD
+[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.4...HEAD
+[2.0.4]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.3...2.0.4
 [2.0.3]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.2...2.0.3
 [2.0.2]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.1...2.0.2
 [2.0.1]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.0...2.0.1
