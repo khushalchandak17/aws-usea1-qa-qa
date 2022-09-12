@@ -1,14 +1,14 @@
 apiVersion: fleet.cattle.io/v1alpha1
 kind: GitRepo
 metadata:
-  name: aws-usea1-qa-shared
+  name: aws-usea1-qa-qa
   namespace: fleet-local
   annotations:
-    field.cattle.io/description: aws-usea1-qa-shared Fleet GitRepos
+    field.cattle.io/description: aws-usea1-qa-qa Fleet GitRepos
 spec:
   branch: main
   clientSecretName: gitlab-caas-ops
-  repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-shared.git
+  repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa.git
   targets:
     - name: all
       clusterSelector: {}
