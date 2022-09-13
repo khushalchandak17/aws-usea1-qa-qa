@@ -70,7 +70,7 @@ gitrepos:
     description: DNS records managed by External DNS
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-dnsrecords.git
-      revision: 1.0.35
+      revision: 1.0.36
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
