@@ -284,7 +284,7 @@ gitrepos:
     description: XCR Monitoring stack for rancher cluster
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/monitoring.git
-      revision: 1.2.69
+      branch: main
       clientSecretName: gitlab
       paths:
         - monitoring-charts
