@@ -241,10 +241,10 @@ gitrepos:
 
   - name: xcr-foundation
     create: true
-    description: Chimera Foundation chart
+    description: XCR Foundation chart
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/foundation.git
-      revision: 1.1.4
+      branch: master
       clientSecretName: gitlab
       targets:
         - name: all
@@ -255,7 +255,7 @@ gitrepos:
     description: XCR Logging stack for rancher cluster
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/logging.git
-      revision: 1.0.27
+      branch: main
       clientSecretName: gitlab
       paths:
         - logging-crd
@@ -270,7 +270,7 @@ gitrepos:
     description: XCR Loki stack for rancher cluster
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/loki.git
-      revision: 1.0.28
+      branch: master
       clientSecretName: gitlab
       paths:
         - loki
@@ -297,30 +297,16 @@ gitrepos:
         - name: all
           clusterSelector: {}
 
-  - name: xcr-hnc
+  - name: xcr-vault-secrets-webhook
     create: true
-    description: HNC for preprod
+    description: XCR Banzaicloud vault webhook chart
     spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/hnc.git
-      revision: 2.0.7
-      paths:
-        - hnc
-        - hnc-backup
-      clientSecretName: gitlab
-      targets:
-        - name: all
-          clusterSelector: {}
-
-  - name: xcr-aqua-enforcer
-    create: true
-    description: XCR aqua enforcer charts
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/aqua.git
-      revision: 0.0.11
+      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/banzaicloud-vault-webhook.git
+      branch: main
       clientSecretName: gitlab
       paths:
-        - aqua-enforcer
-      # Deploy to all Prod clusters in AWS
+        - vault-secrets-webhook-chart
+        - banzai-webhook-dashboard
       targets:
         - name: all
           clusterSelector: {}
@@ -330,12 +316,78 @@ gitrepos:
     description: XCR aqua enforcer charts
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/aqua.git
-      revision: 0.0.11
+      branch: main
       clientSecretName: gitlab
       paths:
         - kube-enforcer
       targets:
         - name: all
           clusterSelector: {}
+
+  - name: xcr-argocd-sa
+    create: true
+    description: XCR ArgoCD SA chart
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/service-account.git
+      branch: main
+      clientSecretName: gitlab
+      paths:
+        - service-account
+      targets:
+        - name: all
+          clusterSelector: {}
+
+  - name: xcr-argocd-sa-rolebinding
+    create: true
+    description: XCR ArgoCD SA Rolebinding chart
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/argocd-rolebinding.git
+      branch: main
+      clientSecretName: gitlab
+      paths:
+        - sa-rolebinding
+      targets:
+        - name: all
+          clusterSelector: {}
+
+  - name: xcr-hnc-qa
+    create: true
+    description: hnc
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/hnc.git
+      branch: main
+      paths:
+        - hnc
+        - hnc-backup
+        - hnc-config-job
+      clientSecretName: gitlab
+      targets:
+        - name: all
+          clusterSelector: {}
+
+  - name: kubecost
+    create: true
+    description: Kubecost
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/kubecost.git
+      revision: main
+      paths:
+        - fleet
+      clientSecretName: gitlab
+      targets:
+        - name: all
+          clusterSelector: {}
+
+  - name: xcr-custom-promrule-testing
+    create: true
+    description: promtheus rule testing
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/xcr-custom-alerts.git
+      branch: main
+      clientSecretName: gitlab
+      targets:
+        - name: all
+          clusterSelector: {}
+
 
   ### XCR team's application ENDS here
