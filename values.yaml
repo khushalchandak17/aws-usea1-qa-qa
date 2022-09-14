@@ -104,6 +104,42 @@ gitrepos:
         - name: all
           clusterSelector: {}
 
+  - name: opa-library
+    create: true
+    description: OPA Library
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-opalibrary.git
+      revision: 0.0.14
+      clientSecretName: gitlab-caas-ops
+      targets:
+        - name: all
+          clusterSelector: {}
+
+  - name: rancher-gatekeeper
+    create: true
+    description: Rancher OPA Gatekeeper
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
+      revision: 1.0.157
+      paths:
+        - rancher-gatekeeper-crd
+        - rancher-gatekeeper
+      clientSecretName: gitlab-caas-ops
+      targets:
+        - name: all
+          clusterSelector: {}
+
+  - name: siemens-opa
+    create: true
+    description: Siemens OPA Constraints
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-opa.git
+      revision: 1.0.23
+      clientSecretName: gitlab-caas-ops
+      targets:
+        - name: all
+          clusterSelector: {}
+
   - name: sealed-secrets-controller
     create: true
     description: Bitnami Sealed Secrets controller
