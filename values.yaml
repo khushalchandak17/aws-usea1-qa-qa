@@ -65,17 +65,6 @@ gitrepos:
         - name: all
           clusterSelector: {}
 
-  - name: dnsrecords
-    create: true
-    description: DNS records managed by External DNS
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-dnsrecords.git
-      revision: 1.0.36
-      clientSecretName: gitlab-caas-ops
-      targets:
-        - name: all
-          clusterSelector: {}
-
   - name: ebs-csi-driver
     create: true
     description: EBS CSI Driver
@@ -84,19 +73,6 @@ gitrepos:
       revision: 1.0.154
       paths:
         - aws-ebs-csi-driver
-      clientSecretName: gitlab-caas-ops
-      targets:
-        - name: all
-          clusterSelector: {}
-
-  - name: external-dns
-    create: false
-    description: External DNS
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      branch: external-dns
-      paths:
-        - external-dns
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
@@ -127,42 +103,6 @@ gitrepos:
       targets:
         - name: all
           clusterSelector: {}
-
-  # - name: opa-library
-  #   create: false
-  #   description: OPA Library
-  #   spec:
-  #     repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-opalibrary.git
-  #     revision: 0.0.14
-  #     clientSecretName: gitlab-caas-ops
-  #     targets:
-  #       - name: all
-  #         clusterSelector: {}
-
-  # - name: rancher-gatekeeper
-  #   create: false
-  #   description: Rancher OPA Gatekeeper
-  #   spec:
-  #     repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-  #     revision: 1.0.138
-  #     paths:
-  #       - rancher-gatekeeper-crd
-  #       - rancher-gatekeeper
-  #     clientSecretName: gitlab-caas-ops
-  #     targets:
-  #       - name: all
-  #         clusterSelector: {}
-
-  # - name: siemens-opa
-  #   create: false
-  #   description: Siemens OPA Constraints
-  #   spec:
-  #     repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-opa.git
-  #     revision: 1.0.22
-  #     clientSecretName: gitlab-caas-ops
-  #     targets:
-  #       - name: all
-  #         clusterSelector: {}
 
   - name: sealed-secrets-controller
     create: true
@@ -238,7 +178,6 @@ gitrepos:
           clusterSelector: {}
 
   ### Add XCR team's application STARTS here
-
   - name: xcr-foundation
     create: true
     description: XCR Foundation chart
@@ -388,6 +327,4 @@ gitrepos:
       targets:
         - name: all
           clusterSelector: {}
-
-
   ### XCR team's application ENDS here
