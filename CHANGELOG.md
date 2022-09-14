@@ -2,8 +2,17 @@
 ## [Unreleased]
 
 
+<a name="2.0.10"></a>
+## [2.0.10] - 2022-09-14
+### Feat
+- enable OPA
+
+
 <a name="2.0.9"></a>
 ## [2.0.9] - 2022-09-14
+### Ci
+- promote to v2.0.9
+
 ### Fix
 - sync objects
 
@@ -78,7 +87,8 @@
 <a name="1.0.0"></a>
 ## 1.0.0 - 2022-05-23
 
-[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.9...HEAD
+[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.10...HEAD
+[2.0.10]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.9...2.0.10
 [2.0.9]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.8...2.0.9
 [2.0.8]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.7...2.0.8
 [2.0.7]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.6...2.0.7
