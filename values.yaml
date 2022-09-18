@@ -363,4 +363,17 @@ gitrepos:
       targets:
         - name: all
           clusterSelector: {}
+
+  - name: xcr-ovp-app
+    create: true
+    description: OVP app for env testing
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/ovp-app.git
+      branch: main
+      clientSecretName: gitlab
+      paths:
+        - ovp-app-chart
+      targets:
+        - name: all
+          clusterSelector: {}
   ### XCR team's application ENDS here
