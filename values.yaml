@@ -46,7 +46,7 @@ gitrepos:
     description: Cert-Manager Cluster Issuers
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-issuers.git
-      revision: 1.2.14
+      revision: 1.2.15
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
