@@ -1,7 +1,7 @@
 apiVersion: v2
 name: aws-usea1-qa-qa
-version: 2.0.23
-appVersion: 2.0.23
+version: 2.0.24
+appVersion: 2.0.24
 description: Fleet Workspace
 type: application
 keywords: ["Rancher", "Fleet", "GitOps", "Siemens", "KaaS", "XCR"]
