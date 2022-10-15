@@ -387,6 +387,7 @@ gitrepos:
       paths:
         - ovp-app-chart
         - ovp-addons
+        - ovp-dashboard
       targets:
         - name: all
           clusterSelector: {}
