@@ -65,6 +65,19 @@ gitrepos:
         - name: all
           clusterSelector: {}
 
+  - name: datadog
+    create: true
+    description: Datadog
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
+      revision: 1.0.175
+      paths:
+        - datadog
+      clientSecretName: gitlab-caas-ops
+      targets:
+        - name: all
+          clusterSelector: {}
+
   - name: ebs-csi-driver
     create: true
     description: EBS CSI Driver
