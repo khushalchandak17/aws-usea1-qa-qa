@@ -2,8 +2,14 @@
 ## [Unreleased]
 
 
+<a name="2.0.41"></a>
+## [2.0.41] - 2022-10-19
+
 <a name="2.0.40"></a>
 ## [2.0.40] - 2022-10-18
+### Ci
+- promote to v2.0.40
+
 ### Feat
 - add Datadog
 
@@ -74,7 +80,8 @@
 - promote to v2.0.29
 
 
-[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.40...HEAD
+[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.41...HEAD
+[2.0.41]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.40...2.0.41
 [2.0.40]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.39...2.0.40
 [2.0.39]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.38...2.0.39
 [2.0.38]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.37...2.0.38
