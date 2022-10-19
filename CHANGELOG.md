@@ -2,8 +2,17 @@
 ## [Unreleased]
 
 
+<a name="2.0.45"></a>
+## [2.0.45] - 2022-10-19
+### Chore
+- remove sealed-secrets-restarter
+
+
 <a name="2.0.44"></a>
 ## [2.0.44] - 2022-10-19
+### Ci
+- promote to v2.0.44
+
 
 <a name="2.0.43"></a>
 ## [2.0.43] - 2022-10-19
@@ -81,12 +90,19 @@
 
 
 <a name="2.0.31"></a>
-## 2.0.31 - 2022-10-04
+## [2.0.31] - 2022-10-04
 ### Ci
 - promote to v2.0.31
 
 
-[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.44...HEAD
+<a name="2.0.30"></a>
+## 2.0.30 - 2022-10-04
+### Ci
+- promote to v2.0.30
+
+
+[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.45...HEAD
+[2.0.45]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.44...2.0.45
 [2.0.44]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.43...2.0.44
 [2.0.43]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.42...2.0.43
 [2.0.42]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.41...2.0.42
@@ -100,3 +116,4 @@
 [2.0.34]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.33...2.0.34
 [2.0.33]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.32...2.0.33
 [2.0.32]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.31...2.0.32
+[2.0.31]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.30...2.0.31
