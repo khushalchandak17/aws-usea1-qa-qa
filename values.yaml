@@ -395,7 +395,7 @@ gitrepos:
     description: OVP app for env testing
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/ovp-app.git
-      branch: main
+      revision: 1.0.12
       clientSecretName: gitlab
       paths:
         - ovp-app-chart
