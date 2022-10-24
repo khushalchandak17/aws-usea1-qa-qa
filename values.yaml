@@ -67,7 +67,7 @@ gitrepos:
 
   - name: datadog
     create: true
-    description: Datadog
+    description: Datadog Agent
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
       revision: 1.0.178
