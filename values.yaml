@@ -122,7 +122,7 @@ gitrepos:
     description: OPA Library
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-opalibrary.git
-      revision: 0.0.19
+      revision: 0.0.20
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
