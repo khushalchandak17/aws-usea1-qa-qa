@@ -340,6 +340,19 @@ gitrepos:
         - name: all
           clusterSelector: {}
 
+  - name: xcr-argocd-rbac
+    create: true
+    description: XCR ArgoCD RBAC chart
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/argocd-rbac.git
+      branch: main
+      clientSecretName: gitlab
+      paths:
+        - argocd-rbac
+      targets:
+        - name: all
+          clusterSelector: {}          
+
   - name: xcr-hnc-qa
     create: true
     description: hnc
