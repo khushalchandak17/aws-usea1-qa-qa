@@ -319,7 +319,7 @@ gitrepos:
     description: XCR ArgoCD SA chart
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/service-account.git
-      branch: false
+      branch: main
       clientSecretName: gitlab
       paths:
         - service-account
