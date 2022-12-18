@@ -315,11 +315,11 @@ gitrepos:
           clusterSelector: {}
 
   - name: xcr-argocd-sa
-    create: true
+    create: false
     description: XCR ArgoCD SA chart
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/service-account.git
-      branch: main
+      branch: false
       clientSecretName: gitlab
       paths:
         - service-account
@@ -328,7 +328,7 @@ gitrepos:
           clusterSelector: {}
 
   - name: xcr-argocd-sa-rolebinding
-    create: true
+    create: false
     description: XCR ArgoCD SA Rolebinding chart
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/argocd-rolebinding.git
