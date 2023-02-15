@@ -407,7 +407,7 @@ gitrepos:
           clusterSelector: {}
   
   - name: xcr-ns-labeler
-    create: true
+    create: false
     description: XCR Namespace Labeler
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/adhoc-one-time-tasks.git
