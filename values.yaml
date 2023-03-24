@@ -298,6 +298,7 @@ gitrepos:
       clientSecretName: gitlab
       paths:
         - kube-enforcer
+        - kube-enforcer-certs
       targets:
         - name: all
           clusterSelector: {}
