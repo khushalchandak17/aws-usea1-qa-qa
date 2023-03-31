@@ -370,19 +370,6 @@ gitrepos:
         - name: all
           clusterSelector: {}
 
-  - name: kubecost
-    create: true
-    description: Kubecost
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/kubecost.git
-      revision: main
-      paths:
-        - fleet
-      clientSecretName: gitlab
-      targets:
-        - name: all
-          clusterSelector: {}
-
   - name: xcr-custom-promrule-testing
     create: true
     description: promtheus rule testing
