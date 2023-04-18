@@ -395,6 +395,16 @@ gitrepos:
         - name: all
           clusterSelector: {}
   
-
-
+  - name: reloader-global
+    create: true
+    description: global reloader 
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
+      revision: 1.0.233
+      paths:
+        - reloader-global
+      clientSecretName: gitlab-caas-ops
+      targets:
+        - name: all
+          clusterSelector: {}
   ### XCR team's application ENDS here
