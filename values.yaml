@@ -71,7 +71,7 @@ gitrepos:
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
       #revision: 1.0.225
-      branch: log-change
+      branch: multi-line-support
       paths:
         - datadog
       clientSecretName: gitlab-caas-ops
