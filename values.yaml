@@ -283,7 +283,7 @@ gitrepos:
       clientSecretName: gitlab
       paths:
         - vault-secrets-webhook-chart
-        - banzai-webhook-dashboard
+        - banzai-webhook-addons
       targets:
         - name: all
           clusterSelector: {}
