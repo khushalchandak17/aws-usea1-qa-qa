@@ -407,3 +407,16 @@ gitrepos:
         - name: all
           clusterSelector: {}
   ### XCR team's application ENDS here
+
+  - name: cloudability
+    create: true
+    description: Cloudability metrics-agent
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
+      revision: 1.0.265
+      paths:
+        - cloudability
+      clientSecretName: gitlab-caas-ops
+      targets:
+        - name: all
+          clusterSelector: {}
