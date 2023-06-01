@@ -2,8 +2,14 @@
 ## [Unreleased]
 
 
+<a name="2.0.142"></a>
+## [2.0.142] - 2023-06-01
+
 <a name="2.0.141"></a>
 ## [2.0.141] - 2023-06-01
+### Ci
+- promote to v2.0.141
+
 ### Feat
 - add Cloudability metrics-agent
 
@@ -68,7 +74,8 @@
 - promote to v2.0.131
 
 
-[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.141...HEAD
+[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.142...HEAD
+[2.0.142]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.141...2.0.142
 [2.0.141]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.140...2.0.141
 [2.0.140]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.139...2.0.140
 [2.0.139]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.138...2.0.139
