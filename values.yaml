@@ -33,7 +33,7 @@ gitrepos:
     description: JetStack Certificate Manager
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.268
+      revision: dd-cert-manager-label #1.0.268
       paths:
         - cert-manager
       clientSecretName: gitlab-caas-ops
