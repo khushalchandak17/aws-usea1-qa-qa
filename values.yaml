@@ -133,7 +133,7 @@ gitrepos:
     description: Rancher OPA Gatekeeper
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: XCR-2518
+      revision: 1.0.276
       paths:
         - rancher-gatekeeper-crd
         - rancher-gatekeeper
