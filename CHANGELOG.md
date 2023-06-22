@@ -2,10 +2,16 @@
 ## [Unreleased]
 
 
+<a name="2.0.158"></a>
+## [2.0.158] - 2023-06-22
+
 <a name="2.0.157"></a>
 ## [2.0.157] - 2023-06-20
 ### Chore
 - switch rancher-gatekeeper to latest helm-external tag
+
+### Ci
+- promote to v2.0.157
 
 
 <a name="2.0.156"></a>
@@ -60,21 +66,13 @@
 
 
 <a name="2.0.148"></a>
-## [2.0.148] - 2023-06-05
-### Chore
-- use helm-external latest for cluster-autoscaler
-
+## 2.0.148 - 2023-06-05
 ### Ci
 - promote to v2.0.148
 
 
-<a name="2.0.147"></a>
-## 2.0.147 - 2023-06-05
-### Ci
-- promote to v2.0.147
-
-
-[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.157...HEAD
+[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.158...HEAD
+[2.0.158]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.157...2.0.158
 [2.0.157]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.156...2.0.157
 [2.0.156]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.155...2.0.156
 [2.0.155]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.154...2.0.155
@@ -84,4 +82,3 @@
 [2.0.151]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.150...2.0.151
 [2.0.150]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.149...2.0.150
 [2.0.149]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.148...2.0.149
-[2.0.148]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.147...2.0.148
