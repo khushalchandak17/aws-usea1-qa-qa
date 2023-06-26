@@ -103,7 +103,7 @@ gitrepos:
           clusterSelector: {}
 
   - name: external-dns
-    create: false
+    create: true
     description: External DNS
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
