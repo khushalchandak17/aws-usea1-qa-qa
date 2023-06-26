@@ -78,6 +78,17 @@ gitrepos:
         - name: all
           clusterSelector: {}
 
+  - name: dnsrecords
+    create: true
+    description: DNS records managed by External DNS
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-dnsrecords.git
+      revision: 1.0.61
+      clientSecretName: gitlab-caas-ops
+      targets:
+        - name: all
+          clusterSelector: {}
+
   - name: ebs-csi-driver
     create: true
     description: EBS CSI Driver
@@ -86,6 +97,19 @@ gitrepos:
       revision: 1.0.277
       paths:
         - aws-ebs-csi-driver
+      clientSecretName: gitlab-caas-ops
+      targets:
+        - name: all
+          clusterSelector: {}
+
+  - name: external-dns
+    create: false
+    description: External DNS
+    spec:
+      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
+      revision: 1.0.277
+      paths:
+        - external-dns
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
