@@ -57,7 +57,7 @@ gitrepos:
     description: Cluster Autoscaler
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - cluster-autoscaler
       clientSecretName: gitlab-caas-ops
@@ -94,7 +94,7 @@ gitrepos:
     description: EBS CSI Driver
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - aws-ebs-csi-driver
       clientSecretName: gitlab-caas-ops
@@ -107,7 +107,7 @@ gitrepos:
     description: External DNS
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - external-dns
       clientSecretName: gitlab-caas-ops
@@ -120,7 +120,7 @@ gitrepos:
     description: NginX Ingress Controller
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - ingress-nginx
       clientSecretName: gitlab-caas-ops
@@ -133,7 +133,7 @@ gitrepos:
     description: Metrics Server
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - metrics-server
       clientSecretName: gitlab-caas-ops
@@ -157,7 +157,7 @@ gitrepos:
     description: Rancher OPA Gatekeeper
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - rancher-gatekeeper-crd
         - rancher-gatekeeper
@@ -182,7 +182,7 @@ gitrepos:
     description: Bitnami Sealed Secrets controller
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - sealed-secrets
       clientSecretName: gitlab-caas-ops
@@ -206,7 +206,7 @@ gitrepos:
     description: CSI Snapshot Controller
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - snapshot-controller
         - snapshot-validation-webhook
@@ -231,7 +231,7 @@ gitrepos:
     description: Velero Backups
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - velero
       clientSecretName: gitlab-caas-ops
@@ -423,7 +423,7 @@ gitrepos:
     description: global reloader 
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - reloader-global
       clientSecretName: gitlab-caas-ops
@@ -437,7 +437,7 @@ gitrepos:
     description: Cloudability metrics-agent
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.277
+      revision: 1.0.278
       paths:
         - cloudability
       clientSecretName: gitlab-caas-ops
