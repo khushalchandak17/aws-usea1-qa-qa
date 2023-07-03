@@ -231,7 +231,7 @@ gitrepos:
     description: Velero Backups
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: hotfix/disable-velero-upgrade-crd
+      revision: hotfix-disable-velero-upgrade-crd
       paths:
         - velero
       clientSecretName: gitlab-caas-ops
