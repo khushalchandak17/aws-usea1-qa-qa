@@ -70,8 +70,7 @@ gitrepos:
     description: Datadog Agent
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      #revision: 1.0.277
-      branch: XCR-2599-refactor
+      revision: 1.0.278
       paths:
         - datadog
       clientSecretName: gitlab-caas-ops
