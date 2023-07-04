@@ -376,7 +376,7 @@ gitrepos:
         - argocd-rbac
       targets:
         - name: all
-          clusterSelector: {}          
+          clusterSelector: {}
 
   - name: xcr-hnc-qa
     create: true
@@ -417,10 +417,10 @@ gitrepos:
       targets:
         - name: all
           clusterSelector: {}
-  
+
   - name: reloader-global
     create: true
-    description: global reloader 
+    description: global reloader
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
       revision: 1.0.279
