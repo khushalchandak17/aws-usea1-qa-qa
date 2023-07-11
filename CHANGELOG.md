@@ -2,8 +2,14 @@
 ## [Unreleased]
 
 
+<a name="2.0.176"></a>
+## [2.0.176] - 2023-07-11
+
 <a name="2.0.175"></a>
 ## [2.0.175] - 2023-07-11
+### Ci
+- promote to v2.0.175
+
 
 <a name="2.0.174"></a>
 ## [2.0.174] - 2023-07-10
@@ -67,9 +73,6 @@
 ### Ci
 - promote to v2.0.166
 
-### Test
-- update velero revision to hotfix branch
-
 
 <a name="2.0.165"></a>
 ## 2.0.165 - 2023-07-03
@@ -77,7 +80,8 @@
 - promote to v2.0.165
 
 
-[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.175...HEAD
+[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.176...HEAD
+[2.0.176]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.175...2.0.176
 [2.0.175]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.174...2.0.175
 [2.0.174]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.173...2.0.174
 [2.0.173]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.172...2.0.173
