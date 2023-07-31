@@ -195,7 +195,7 @@ gitrepos:
     description: KaaS SealedSecrets
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-secrets.git
-      revision: 1.1.77
+      revision: 1.1.78
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
