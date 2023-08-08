@@ -22,7 +22,7 @@ gitrepos:
     description: Calico (Network Policy Engine)
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-calico-networkpolicy.git
-      revision: dev-testing
+      revision: 0.0.27
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
