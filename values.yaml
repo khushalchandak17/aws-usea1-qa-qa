@@ -57,7 +57,7 @@ gitrepos:
     description: Cluster Autoscaler
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.302
+      revision: autoscaler-sprig
       paths:
         - cluster-autoscaler
       clientSecretName: gitlab-caas-ops
