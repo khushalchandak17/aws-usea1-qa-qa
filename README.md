@@ -1,6 +1,6 @@
 # aws-usea1-qa-qa
 
-![Version: 2.0.237](https://img.shields.io/badge/Version-2.0.237-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 2.0.237](https://img.shields.io/badge/AppVersion-2.0.237-informational?style=flat-square)
+![Version: 2.0.238](https://img.shields.io/badge/Version-2.0.238-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 2.0.238](https://img.shields.io/badge/AppVersion-2.0.238-informational?style=flat-square)
 
 Fleet Workspace
 
