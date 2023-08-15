@@ -120,7 +120,7 @@ gitrepos:
     description: NginX Ingress Controller
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.305
+      revision: 1.0.307
       paths:
         - ingress-nginx
       clientSecretName: gitlab-caas-ops
