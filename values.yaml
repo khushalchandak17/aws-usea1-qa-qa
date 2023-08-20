@@ -409,7 +409,7 @@ gitrepos:
     description: OVP app for env testing
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/ovp-app.git
-      revision: XCR-2295_sprig_templating_test_app
+      revision: 0.0.1
       clientSecretName: gitlab
       paths:
         - ovp-app-chart
