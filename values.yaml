@@ -410,7 +410,7 @@ gitrepos:
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/ovp-app.git
       branch: XCR-2295_sprig_templating_test_app
-      revision: 33e34eccef5bf98c523b5318a3c08182aa1d2311
+      revision: 6a161b672bd6b9fcde0756d7a6dab7ceea560729
       clientSecretName: gitlab
       paths:
         - ovp-app-chart
