@@ -258,6 +258,7 @@ gitrepos:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/logging.git
       branch: main
       clientSecretName: gitlab
+      helmSecretName: helm-external-charts-false
       paths:
         - logging-crd
         - logging-chart
@@ -273,6 +274,7 @@ gitrepos:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/loki.git
       branch: master
       clientSecretName: gitlab
+      helmSecretName: helm-external-charts-false
       paths:
         - loki
         - loki-canary
@@ -287,6 +289,7 @@ gitrepos:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/monitoring.git
       branch: main
       clientSecretName: gitlab
+      helmSecretName: helm-external-charts-false
       paths:
         - monitoring-charts
         - service-account
@@ -305,6 +308,7 @@ gitrepos:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/banzaicloud-vault-webhook.git
       branch: main
       clientSecretName: gitlab
+      helmSecretName: helm-external-charts-false
       paths:
         - vault-secrets-webhook-chart
         - banzai-webhook-addons
