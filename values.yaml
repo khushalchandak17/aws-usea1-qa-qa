@@ -22,7 +22,7 @@ gitrepos:
     description: Calico (Network Policy Engine)
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-calico-networkpolicy.git
-      revision: 0.0.30
+      revision: fix-bgpfilter-error
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
