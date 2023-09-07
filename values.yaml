@@ -323,6 +323,7 @@ gitrepos:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/aqua.git
       branch: datadog-labeling
       clientSecretName: gitlab
+      helmSecretName: helm-external-charts
       paths:
         - kube-enforcer
         - kube-enforcer-certs
@@ -337,6 +338,7 @@ gitrepos:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/aqua.git
       branch: datadog-labeling
       clientSecretName: gitlab
+      helmSecretName: helm-external-charts
       paths:
         - aqua-enforcer
       targets:
