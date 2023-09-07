@@ -321,7 +321,7 @@ gitrepos:
     description: XCR aqua enforcer charts
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/aqua.git
-      branch: datadog-labeling
+      branch: main
       clientSecretName: gitlab
       helmSecretName: helm-external-charts
       paths:
@@ -336,7 +336,7 @@ gitrepos:
     description: XCR aqua enforcer charts
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/aqua.git
-      branch: datadog-labeling
+      branch: main
       clientSecretName: gitlab
       helmSecretName: helm-external-charts
       paths:
