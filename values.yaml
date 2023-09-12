@@ -308,7 +308,7 @@ gitrepos:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/banzaicloud-vault-webhook.git
       branch: main
       clientSecretName: gitlab
-      helmSecretName: helm-external-charts-false-exists
+      helmSecretName: helm-external-charts
       paths:
         - vault-secrets-webhook-chart
         - banzai-webhook-addons
