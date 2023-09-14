@@ -217,10 +217,10 @@ gitrepos:
 
   - name: storageclasses
     create: true
-    description: Storage Classes and Volume Snapshot Classes
+    description: Storage Classes and Volume Snapshot Classes 
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-storageclasses.git
-      branch: XCR-4143
+      branch: XCR-414
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
