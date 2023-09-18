@@ -419,7 +419,6 @@ gitrepos:
       clientSecretName: gitlab
       paths:
         - ovp-app-chart
-        - ovp-addons
       targets:
         - name: all
           clusterSelector: {}
