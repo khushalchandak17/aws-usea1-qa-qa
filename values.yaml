@@ -389,7 +389,7 @@ gitrepos:
     description: hnc
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/hnc.git
-      branch: issue_364_remediation
+      branch: main
       paths:
         - hnc
         - hnc-backup
