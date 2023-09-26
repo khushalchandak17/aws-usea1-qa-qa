@@ -449,28 +449,3 @@ gitrepos:
       targets:
         - name: all
           clusterSelector: {}
-
-  - name: vsphere-cpi
-    create: true
-    description: Vsphere CPI controller
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.320
-      paths:
-        - vsphere-cpi
-      clientSecretName: gitlab-caas-ops
-      targets:
-        - name: all
-          clusterSelector: { }
-
-  #To be removed when:https://pillar0-siemens.atlassian.net/browse/XCR-4202
-  - name: vsphere-cpi-taintjob
-    create: true
-    description: Vsphere node taint job.
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/vsphere-cpi-taintnodes.git
-      revision: 1.0.0
-      clientSecretName: gitlab-caas-ops
-      targets:
-        - name: all
-          clusterSelector: { }
