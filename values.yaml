@@ -251,37 +251,6 @@ gitrepos:
         - name: all
           clusterSelector: {}
 
-  - name: xcr-logging
-    create: true
-    description: XCR Logging stack for rancher cluster
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/logging.git
-      branch: main
-      clientSecretName: gitlab
-      helmSecretName: helm-external-charts
-      paths:
-        - logging-crd
-        - logging-chart
-        - ns-logging-obj
-      targets:
-        - name: all
-          clusterSelector: {}
-
-  - name: xcr-loki
-    create: true
-    description: XCR Loki stack for rancher cluster
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/loki.git
-      branch: master
-      clientSecretName: gitlab
-      helmSecretName: helm-external-charts
-      paths:
-        - loki
-        - loki-canary
-      targets:
-        - name: all
-          clusterSelector: {}
-
   - name: xcr-monitoring
     create: true
     description: XCR Monitoring stack for rancher cluster
