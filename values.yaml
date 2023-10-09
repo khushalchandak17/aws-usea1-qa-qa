@@ -245,7 +245,7 @@ gitrepos:
     description: XCR Foundation chart
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/foundation.git
-      branch: master
+      branch: multi-priority-class #master
       clientSecretName: gitlab
       targets:
         - name: all
