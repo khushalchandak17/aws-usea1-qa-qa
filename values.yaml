@@ -250,26 +250,6 @@ gitrepos:
       targets:
         - name: all
           clusterSelector: {}
-
-#  - name: xcr-monitoring
-#    create: true
-#    description: XCR Monitoring stack for rancher cluster
-#    spec:
-#      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/monitoring.git
-#      branch: main
-#      clientSecretName: gitlab
-#      helmSecretName: helm-external-charts
-#      paths:
-#        - monitoring-charts
-#        - service-account
-#        - blackbox
-#        - grafana_resources
-#        - alertmanager_config
-#        - grafana_dashboards
-#      targets:
-#        - name: all
-#          clusterSelector: {}
-
   - name: xcr-vault-secrets-webhook
     create: true
     description: XCR Banzaicloud vault webhook chart
@@ -384,7 +364,7 @@ gitrepos:
     description: OVP app for env testing
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/ovp-app.git
-      revision: 1.0.43
+      revision: 1.0.44
       clientSecretName: gitlab
       paths:
         - ovp-app-chart
