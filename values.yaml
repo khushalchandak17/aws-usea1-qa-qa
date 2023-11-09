@@ -206,7 +206,8 @@ gitrepos:
     description: CSI Snapshot Controller
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
-      revision: 1.0.323
+      #revision: 1.0.323
+      branch: XCR-4037
       paths:
         - snapshot-controller
         - snapshot-validation-webhook
