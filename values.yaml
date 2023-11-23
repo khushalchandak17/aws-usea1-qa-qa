@@ -171,7 +171,7 @@ gitrepos:
     description: Siemens OPA Constraints
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-opa.git
-      revision: 1.0.37
+      revision: SCTASK0413257
       clientSecretName: gitlab-caas-ops
       targets:
         - name: all
