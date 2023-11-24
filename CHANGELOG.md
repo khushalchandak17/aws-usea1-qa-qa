@@ -2,8 +2,17 @@
 ## [Unreleased]
 
 
+<a name="2.0.403"></a>
+## [2.0.403] - 2023-11-24
+### Reverts
+- tmp: set xcr-ovp-app revision to podinfo-chart-update branch
+
+
 <a name="2.0.402"></a>
 ## [2.0.402] - 2023-11-24
+### Ci
+- promote to v2.0.402
+
 ### Tmp
 - set xcr-ovp-app revision to podinfo-chart-update branch
 
@@ -66,12 +75,19 @@
 
 
 <a name="2.0.392"></a>
-## 2.0.392 - 2023-11-17
+## [2.0.392] - 2023-11-17
 ### Ci
 - promote to v2.0.392
 
 
-[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.402...HEAD
+<a name="2.0.391"></a>
+## 2.0.391 - 2023-11-16
+### Ci
+- promote to v2.0.391
+
+
+[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.403...HEAD
+[2.0.403]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.402...2.0.403
 [2.0.402]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.401...2.0.402
 [2.0.401]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.400...2.0.401
 [2.0.400]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.399...2.0.400
@@ -82,3 +98,4 @@
 [2.0.395]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.394...2.0.395
 [2.0.394]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.393...2.0.394
 [2.0.393]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.392...2.0.393
+[2.0.392]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.391...2.0.392
