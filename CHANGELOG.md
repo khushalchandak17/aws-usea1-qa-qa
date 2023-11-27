@@ -2,8 +2,14 @@
 ## [Unreleased]
 
 
+<a name="2.0.405"></a>
+## [2.0.405] - 2023-11-27
+
 <a name="2.0.404"></a>
 ## [2.0.404] - 2023-11-27
+### Ci
+- promote to v2.0.404
+
 
 <a name="2.0.403"></a>
 ## [2.0.403] - 2023-11-24
@@ -63,18 +69,13 @@
 
 
 <a name="2.0.395"></a>
-## [2.0.395] - 2023-11-20
+## 2.0.395 - 2023-11-20
 ### Ci
 - promote to v2.0.395
 
 
-<a name="2.0.394"></a>
-## 2.0.394 - 2023-11-19
-### Ci
-- promote to v2.0.394
-
-
-[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.404...HEAD
+[Unreleased]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.405...HEAD
+[2.0.405]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.404...2.0.405
 [2.0.404]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.403...2.0.404
 [2.0.403]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.402...2.0.403
 [2.0.402]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.401...2.0.402
@@ -84,4 +85,3 @@
 [2.0.398]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.397...2.0.398
 [2.0.397]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.396...2.0.397
 [2.0.396]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.395...2.0.396
-[2.0.395]: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/fleet/aws-usea1-qa-qa/compare/2.0.394...2.0.395
