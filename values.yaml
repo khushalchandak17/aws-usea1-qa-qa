@@ -348,17 +348,6 @@ gitrepos:
         - name: all
           clusterSelector: {}
 
-  - name: xcr-custom-promrule-testing
-    create: false
-    description: promtheus rule testing
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/chimera/kubernetes/fleet/xcr-custom-alerts.git
-      branch: main
-      clientSecretName: gitlab
-      targets:
-        - name: all
-          clusterSelector: {}
-
   - name: xcr-ovp-app
     create: true
     description: OVP app for env testing
