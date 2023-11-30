@@ -34,7 +34,7 @@ gitrepos:
     spec:
       repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
       #revision: 0b8f7d28ea84a3e8bdd6b1f3fa9445b3c8fb68e8
-      branch: cert-manager-version
+      branch: test-new-version-for-cert-manager
       paths:
         - cert-manager
       clientSecretName: gitlab-caas-ops
