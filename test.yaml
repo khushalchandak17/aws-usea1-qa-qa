@@ -15,7 +15,7 @@ spec:
   clientSecretName: gitlab-caas-ops
   paths:
   - cert-manager
-  repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
+  repo: https://github.com/khushalchandak17/cert-manager.git
   revision: dd-cert-manager-label
   targets:
   - clusterSelector: {}
