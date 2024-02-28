@@ -21,7 +21,7 @@ gitrepos:
     create: true
     description: JetStack Certificate Manager
     spec:
-      repo: https://github.com/khushalchandak17/nginx.git
+      repo: https://github.com/khushalchandak17/cert-manager.git
       #revision: 0b8f7d28ea84a3e8bdd6b1f3fa9445b3c8fb68e8
       branch: main
   
