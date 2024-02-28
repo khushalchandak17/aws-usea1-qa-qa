@@ -21,25 +21,14 @@ gitrepos:
     create: true
     description: JetStack Certificate Manager
     spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-external.git
+      repo: https://github.com/khushalchandak17/nginx.git
       #revision: 0b8f7d28ea84a3e8bdd6b1f3fa9445b3c8fb68e8
-      branch: test-new-version-for-cert-manager
-      paths:
-        - cert-manager
-      clientSecretName: gitlab-caas-ops
+      branch: main
+  
       targets:
         - name: all
           clusterSelector: {}
 
-  - name: cert-manager-issuers
-    create: true
-    description: Cert-Manager Cluster Issuers
-    spec:
-      repo: https://gitlab.industrysoftware.automation.siemens.com/caas-ops/helm-issuers.git
-      revision: 1.2.17
-      clientSecretName: gitlab-caas-ops
-      targets:
-        - name: all
-          clusterSelector: {}
+
 
   
